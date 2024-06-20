@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#F9F9E0 ;
+}
+h1{
+    background-color:#FFD0D0 ;
+    color: black;
+    text-align: center ;
+    height: 5rem ;
+    line-height: 5rem; /*give same as height to make it vertically center*/
+}
+.choice{
+    height: 200px;
+    width: 200px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 50%;
+}
+img{
+    height: 190px;
+    width: 190px; 
+    object-fit: cover;/* avoid shrinking and appropriate sizing of imgs*/
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem ;
+}
+.choice:hover{
+    /* opacity: 0.5; */
+    cursor: pointer;
+    background-color: black;
+}
+
+.score-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+.score{
+    text-align: center;
+}
+.user, .comp{
+    margin-bottom: 0.5rem;
+    font-size: 50px;
+}
+.name{
+    height: 2rem;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 7rem;
+    line-height: 2rem;
+}
+.result{
+    margin-top:3rem ;
+    text-align: center;
+    padding: 2px;
+}
+.msg{
+    margin: auto;
+    font-size: 1rem; 
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 1rem;
+    border-radius: 50px ;
+}
+.draw{
+    background-color: rgb(216, 186, 67);
+    color: black;
+    border: 2px solid black;
+    font-weight: 200;
+}
+
+.loose{
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    font-weight: 200;
+}
+
+.win{
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+    font-weight: 200;
+}
+h1:hover{
+    font-size: 50px;
+}
